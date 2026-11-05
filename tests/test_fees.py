@@ -19,3 +19,11 @@ def test_multiple_days_late():
 
 def test_fee_rounds_to_cents():
     assert late_fee(3, 0.333) == 1.0
+
+
+def test_fee_is_capped_at_max_fee():
+    assert late_fee(40, 0.25, max_fee=5.0) == 5.0
+
+
+def test_fee_below_cap_is_unchanged():
+    assert late_fee(4, 0.25, max_fee=5.0) == 1.0
