@@ -1,0 +1,10 @@
+# CODEOWNERS: GitHub asks these people to review changes to matching paths.
+# This file is intentionally inert for the individual lab. Your TEAM project
+# will use it. Replace the placeholders with real GitHub usernames to enable.
+#
+# Example (remove the leading '#' once the usernames are real):
+#
+# *                    @your-team-lead
+# /src/                @teammate-one @teammate-two
+# /.github/workflows/  @your-team-lead
+# /docs/adr/           @your-team-lead
